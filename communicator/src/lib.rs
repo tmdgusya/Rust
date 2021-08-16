@@ -1,10 +1,11 @@
-mod client;
-mod networks;
+pub mod client;
+pub mod networks;
 
 #[cfg(test)]
 mod tests {
+    use super::*;
     #[test]
     fn it_works() {
-        assert_eq!(2 + 2, 4);
+        client::connect();
     }
 }
