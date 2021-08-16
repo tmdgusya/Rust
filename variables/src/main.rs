@@ -1,5 +1,6 @@
 use std::fmt;
 
+#[derive(Debug)]
 struct User{
     username: String,
     email: String,
