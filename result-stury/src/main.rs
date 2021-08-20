@@ -17,4 +17,6 @@ fn main() {
         Err(error) => {
             panic!("There was a problem !! {}", error)
         }
+
+    };
 }
